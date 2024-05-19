@@ -1,0 +1,370 @@
+/*
+Theme Name : Project1
+Theme Coder : Abeer
+theme designer: Saber
+First Color: #de2b24
+Second Color: #f8cd53
+Third Color: #1287bf
+*/
+
+html{
+
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto', sans-serif;
+}
+body
+{
+   font-family: 'Roboto', sans-serif;
+   color: #424242;
+}
+
+h2{
+    font-size:36px;
+    font-weight: 700;
+    padding-top:92px;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+/********************topbar************/
+
+.top-barcontent{
+    background:#f0f2f4;
+}
+
+.top-bar-contact{
+    padding: 15px 0 15px 15px;
+}
+
+.btn-primary{
+    background: #de2b24;
+    border: none;
+}
+
+.btn-primary:hover{
+    background: #a71d19;
+}
+.btn-secondary{
+    background: #f8cd53;
+    border: none;
+    padding: 15px 38px;
+    font-size: 20px;
+}
+
+.btn-secondary:hover{
+    background: #e0b539;
+}
+.separator{
+    border-right: 1px solid #e2e2e2;
+    padding-right: 15px;
+}
+
+.nav{
+    padding: 30px 0;
+}
+
+.nav-section{
+    padding:0;
+}
+
+
+.progress{
+
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+
+.fa-facebook-square{
+    color:#1287bf;
+    font-size:30px;
+    padding: 10px 0 10px 10px;
+}
+
+/*******************nav bar*****************/
+
+.navbar {
+    padding:30px 0;
+}
+.navbar-nav li{
+    margin-left:20px;
+    font-weight:700;
+    font-size:1.1rem;
+}
+
+.navbar-nav li a:hover{
+    color:#de2b24;
+}
+.navbar-nav .active a{
+    color:#de2b24;
+}
+.navbar-toggler-icon{
+    padding:5px;
+    color:#999;
+    border-radius:1px;
+    box-shadow: 1px 1px 5px #e5e5e5;
+}
+
+
+nav li a{
+    color:#424242;
+}
+
+.sr-only{
+    color:#de2b24;
+}
+/****************Carousel*******************/
+
+.carousel-caption{
+    top:25%;
+}
+
+/***********Carousel**********/
+
+.carousel-caption h1{
+    font-size:60px;
+    font-weight: 700;
+    line-height: 0.6;
+}
+
+.carousel-caption p{
+    font-size: 40px;
+    font-weight: 100;
+
+}
+
+/**************dash********************/
+
+.about {
+    padding-bottom: 121px;
+}
+.header-text{
+    padding-bottom: 50px;
+    position: relative;
+}
+.dash{
+    height: 5px;
+    width: 50px;
+    background:#424242;
+    position: absolute;
+    left: 47%;
+}
+
+.header-text h2{
+    font-weight: 700;
+}
+.header-text p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.box:hover{
+    background: #f4f4f4;
+}
+
+.box{
+    border-radius: 10px;
+}
+/***************Approach********************/
+
+.approach{
+    background-color: #f3f3f3;
+    
+}
+
+.step {
+    position:relative;
+    background: white;
+    border-radius:5px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 5px #e5e5e5;
+    overflow: hidden;
+}
+
+.side-paragraph-l{
+    padding: 58px 70px 57px 70px;
+    text-align:start;
+}
+
+.side-paragraph-r{
+    padding: 58px 70px 57px 70px;
+    text-align: end;
+}
+
+
+.side-paragraph h4{
+    font-size: 1.1rem;
+    font-weight:700;
+}
+.red-box{
+    background: #de2b24;
+    color:white;
+    height:100px;
+    width: 100px;
+    position: absolute;
+    top:35%;
+    left: -50px;
+    border-radius:5px;
+    border: solid white 2px;
+    line-height: 0.7rem;
+    padding: 27px;
+
+}
+
+.red-box p{
+    font-size:20px;
+    top:50%;
+}
+
+.red-box span{
+    font-size:60px;
+}
+
+.step-two-box{
+    left:62%;
+    z-index:2;
+}
+
+.steps-img {    
+    overflow: hidden;
+}
+
+
+/*******Work**********/
+
+.work{
+    background-color: #de2b24;
+    color:white;
+}
+
+.work .dash{
+    background-color:white;
+}
+
+
+
+.work-img{
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.work-img img{
+    justify-content: center;
+    width:100%;
+}
+.project-box{
+    background-color: #f35e59;
+    height: 253px;
+
+    overflow: hidden;
+    margin:0;
+}
+
+.project-box i{
+    opacity: .5;
+}
+.showcase{
+    padding-bottom: 130px;
+}
+
+.showcase .col-l-3, .showcase .col-md-3, .showcase .col-sm-1{
+    padding-left:0;
+    padding-right:0;
+}
+
+.project-text{
+    height:100%;
+}
+/**************action***************/
+
+.action{
+    background-color: #1287bf;
+    color: white;
+}
+
+.action i{
+    font-size: 60px;
+}
+
+.action-box {
+    background-color: white;
+    width: 683px;
+}
+
+.form-group input{
+    background-color: white;
+    border: 1px solid #d8d8d8;
+    color:#b0b0b0;
+}
+.action-box p{
+    color: #424242;
+    font-weight: 100;   
+}
+
+form {
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-top:30px;
+}
+
+form button{
+    margin:30px;
+   
+}
+/*********Footer***********/
+
+.contact{
+    background: #2a2a2a;
+    color: white;
+    padding:0;
+}
+
+.contact .header-text{
+    padding-bottom:0;
+}
+.social-icons i{
+    border:2px solid #515151;
+    border-radius:5px;
+    color: white;
+}
+
+.social-icons i:hover{
+    border: 2px solid #de2b24;
+}
+
+.subscribe p{
+    font-weight: 100;
+}
+
+.contact input[type=email]{
+    width: 60%;
+    background:#515151;
+    border:none;
+}
+
+.copywrite {
+    background:#515151;
+    color:#cecece;
+}
+
+.form-groub button{
+    background:#2a2a2a;
+    border: 2px solid #515151;
+    color:white;
+    margin-bottom: 50px;
+    padding:15px 30px;
+}
+
+.form-groub button:hover{
+    border: 2px solid #de2b24;
+    color: white;
+}
